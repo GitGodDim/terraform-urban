@@ -1,1 +1,1 @@
-{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"cluster","Source":"./vpc-native","Dir":"vpc-native"},{"Key":"network","Source":"./network","Dir":"network"},{"Key":"node_pool","Source":"./node_pool","Dir":"node_pool"}]}
+{"Modules":[{"Key":"node_pool","Source":"./node_pool","Dir":"node_pool"},{"Key":"","Source":"","Dir":"."},{"Key":"cluster","Source":"./vpc-native","Dir":"vpc-native"},{"Key":"network","Source":"./network","Dir":"network"}]}

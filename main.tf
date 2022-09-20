@@ -22,11 +22,20 @@ module "cluster" {
 }
 module "node_pool" {
   source             = "./node_pool"
-  name               = "gke-example-node-pool"
+  name               = "gke-urban-node-pool"
   region             = module.cluster.region
   gke_cluster_name   = module.cluster.name
   machine_type       = "n1-standard-4"
   min_node_count     = "1"
   max_node_count     = "2"
   kubernetes_version = module.cluster.kubernetes_version
+}
+resource "google_storage_bucket" "statebucket" {
+  name          = "urban-bucket-tfstate"
+  force_destroy = false
+  location      = "us-central1"
+  storage_class = "STANDARD"
+  versioning {
+    enabled = true
+  }
 }
