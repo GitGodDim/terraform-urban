@@ -1,7 +1,7 @@
 # terraform-urban
 # Prerequisites: 
 1) You should start with **gcloud auth login** and enter your credentials. export $PROJECT_NAME= "PROJECT ID" && export $REGION= "PROJECT REGION"
-2) Open the GCP portal, Go to **APIs & Services - Credentials - CREATE CREDENTIALS** and download the .json file, change the credentials.tf file to point your .json file
+2) Open the GCP portal, Go to **APIs & Services - Credentials - CREATE CREDENTIALS** and download the .json file, change the credentials.tf file to point your .json file. Create **Cloud Storage Account** and past the name to backend.tf file.
 
 
 # Usage: 
@@ -14,7 +14,6 @@ Currently now you will get an error, because you  need to use **gcloud container
 
 # Unresolved problems: 
 1) need to configure more secure way to store credentials file( sops/export to envs)
-2) needed to create null-resource to start the script with gke authentication 
+2) needed to create null-resource to start the script with gke authentication(not manually as it is now) 
 3) need to create GCS before deployment process because backend requires to be before deployment process ( need to create separate folder with only gcs.tf file and start deployment process from here OR terraform apply -target=module.gcsmodule )
 4) need to configure DNS and SSL for the production needs
-5) 
