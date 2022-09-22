@@ -32,7 +32,7 @@ resource "random_id" "entropy" {
 #cluster            = "${var.environment}-${var.gke_cluster_name}"
 resource "google_container_node_pool" "node_pool" {
   name               = "urban-nodepool"
-  cluster            = "dev-gke-urban-cluster"
+  cluster            = var.cluster_name
   location           = var.region
   version            = var.kubernetes_version
   initial_node_count = var.initial_node_count
