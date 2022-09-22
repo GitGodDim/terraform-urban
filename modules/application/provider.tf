@@ -1,8 +1,4 @@
-terraform {
-  required_providers {
-    kubernetes = {
-      source                = "hashicorp/google"
-      configuration_aliases = [kubernetes]
-    }
-  }
+provider "kubernetes" {
+  config_path = "~/.kube/config"
+
 }

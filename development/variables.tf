@@ -114,3 +114,7 @@ variable "session_affinity" {
   description = "Session affinity to use by service"
   type        = string
 }
+variable "kubernetes_config_path" {
+  description = "Path to Kubernetes config"
+  type        = string
+}
