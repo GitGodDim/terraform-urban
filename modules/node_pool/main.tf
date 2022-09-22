@@ -29,7 +29,6 @@ resource "random_id" "entropy" {
 
   byte_length = 2
 }
-#cluster            = "${var.environment}-${var.gke_cluster_name}"
 resource "google_container_node_pool" "node_pool" {
   name               = "urban-nodepool"
   cluster            = "dev-gke-urban-cluster"
