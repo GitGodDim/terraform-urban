@@ -25,6 +25,7 @@ variable "kubernetes_version" {
 
 variable "pods_secondary_ip_range_name" {
   description = "The name of an existing network secondary IP range to be used for pods."
+
 }
 
 variable "services_secondary_ip_range_name" {

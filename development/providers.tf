@@ -4,7 +4,3 @@ provider "google" {
   region      = "us-central1"
 }
 
-provider "kubernetes" {
-  config_path = "~/.kube/config"
-  alias       = "kubernetes"
-}
