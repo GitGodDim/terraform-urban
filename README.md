@@ -10,7 +10,7 @@
 2) **terraform apply**
 This will cause to start .tf files which will deploy infrastructure.
 Currently now you will get an error, because you  need to use **gcloud container clusters get-credentials dev-gke-example --region $REGION --project $PROJECT_NAME** after the error in terraform
-3) **terraform apply**  -app is deployed and Load balancer and Ingress Controller installed 
+3) **terraform apply**  -app is deployed and Load balancer installed
 
 # Unresolved problems: 
 1) need to configure more secure way to store credentials file( sops/export to envs)
@@ -18,4 +18,4 @@ Currently now you will get an error, because you  need to use **gcloud container
 3) need to create GCS before deployment process because backend requires to be before deployment process ( need to create separate folder with only gcs.tf file and start deployment process from here OR terraform apply -target=module.gcsmodule )
 4) need to configure DNS and SSL for the production needs
 5) need to create container registry before the infrastructure creation
-6) need to make code changes to allow prometheus to collect metrics
+6) need to make code changes to allow prometheus to collect metrics, also this means that ingress controller will be needed 
