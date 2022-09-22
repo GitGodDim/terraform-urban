@@ -1,7 +1,7 @@
 # terraform-urban
 # Prerequisites: 
 1) You should start with **gcloud auth login** and enter your credentials. export $PROJECT_NAME= "PROJECT ID" && export $REGION= "PROJECT REGION"
-2) Open the GCP portal, Go to **APIs & Services - Credentials - CREATE CREDENTIALS** and download the .json file, change the credentials.tf file to point your .json file. Create **Cloud Storage Account** and past the name to backend.tf file.
+2) Open the GCP portal, Go to **APIs & Services - Credentials - CREATE CREDENTIALS** and download the .json file, change the credentials.tf file to point your .json file. Create **Cloud Storage Account** and paste the name to backend.tf file.
 
 
 # Usage: 
