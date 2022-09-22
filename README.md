@@ -10,7 +10,7 @@
 2) **terraform apply**
 This will cause to start .tf files which will deploy infrastructure.
 Currently now you will get an error, because you  need to use **gcloud container clusters get-credentials dev-gke-example --region $REGION --project $PROJECT_NAME** after the error in terraform
-3) **terraform apply **  -app is deployed and Load balancer and Ingress Controller installed 
+3) **terraform apply**  -app is deployed and Load balancer and Ingress Controller installed 
 
 # Unresolved problems: 
 1) need to configure more secure way to store credentials file( sops/export to envs)
