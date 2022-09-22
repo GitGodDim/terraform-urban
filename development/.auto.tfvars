@@ -3,9 +3,9 @@ region = "us-central1"
 network_name = "kube"
 project_name = "terraform-module-cluster"
 environment = "dev"
-
+kubernetes_config_path = "~/.kube/config"
 ## Cluster
-cluster_name = "gke-example"
+cluster_name = "gke-urban-cluster"
 kubernetes_version = "1.22.12-gke.300"
 
 ## Network
