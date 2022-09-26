@@ -23,3 +23,4 @@ Currently now you will get an error, because you  need to use **gcloud container
 5) need to create container registry before the infrastructure creation
 
 
+   
