@@ -16,8 +16,7 @@ Currently now you will get an error, because you  need to use **gcloud container
 
 # Unresolved problems: 
 1) need to configure more secure way to store credentials file( sops/export to envs)
-2) need to create null-resource to start the script with gke authentication(not manually as it is now(with 2nd terraform apply)) 
-4) need to create a pipeline or some kind of thing to replace image name that will be used for deployment
+2) need to create a pipeline or some kind of thing to replace image name that will be used for deployment
 3) need to create GCS before deployment process because backend requires to be before deployment process ( need to create separate folder with only gcs.tf file and start deployment process from here OR terraform apply -target=module.gcsmodule )
 4) need to configure DNS and SSL at least for the production needs
 5) need to create container registry before the infrastructure creation
