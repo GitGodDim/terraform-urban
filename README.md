@@ -5,6 +5,7 @@ Some modules were copied from https://github.com/FairwindsOps/terraform-gke and 
 1) You should start with **gcloud auth login** and enter your credentials. export $PROJECT_NAME= "PROJECT ID" && export $REGION= "PROJECT REGION"
 2) Open the GCP portal, Go to **APIs & Services - Credentials - CREATE CREDENTIALS** and download the .json file, change the credentials.tf file to point your .json file. Create **Cloud Storage Account** and paste the name to backend.tf file.
 3) replace the image name from **Container Registry** to yours value in .auto.tf.vars (container_image)
+4) Create the Serivce account with role Token Creator and replace the name in modules/provider.tf
 
 # Usage: 
 
