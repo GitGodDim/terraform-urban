@@ -11,4 +11,5 @@ module "application" {
   replicas_number      = var.replicas_number
   service_type         = var.service_type
   session_affinity     = var.session_affinity
+  cluster_name         = var.cluster_name
 }

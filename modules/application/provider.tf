@@ -1,11 +1,11 @@
 data "google_service_account_access_token" "my_kubernetes_sa" {
-  target_service_account = "gketerraform"
+  target_service_account = "gketerraform@ethereal-jigsaw-362607.iam.gserviceaccount.com"
   scopes                 = ["userinfo-email", "cloud-platform"]
   lifetime               = "3600s"
 }
 
 data "google_container_cluster" "my_cluster" {
-  name     = "my-cluster"
+  name     ="dev-${var.cluster_name}"
   location = "us-central1"
 }
 

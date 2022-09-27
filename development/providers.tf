@@ -4,6 +4,11 @@ terraform {
       source = "hashicorp/google"
       version = "3.22.0"
     }
+     kubernetes = { 
+      source = "hashicorp/kubernetes" 
+      version = "2.13.1" 
+      }
+
   }
 }
 provider "google" {
