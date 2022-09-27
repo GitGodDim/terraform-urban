@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "ethereal-jigsaw-362607",
+  "private_key_id": "1921c60b2d6d8570d9cf71e7ce88efbbc046039e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDZHYILU7MDKd9H\n1hn0HrqM/Tdky8XI1pqigo8N14nVHEHPivlHbAdeZAA6uMWPKeHcc3uANpc3tuBU\n6PDktGpmRVtUF9//qCNnd/2GQzDX9JyknnN59WpZu+dB+FaKGM/hJIITdffmIpZL\nm9IW/x2MEQJFEv/d4yR/QfsyBASCDZdYUiEzQnh0oanSU2Ug9sqNxsr6+pj+5chH\nFy+RtqMPATNwD7NRwMJwrgTep4hfynVLmo3JUtXh0YGjngSsDr7ASYL0wFjx2+2L\nb3ysMN3SpRHRLqD5Q7YmP+4N+yUnXibU12CxVGjTH/NZjCSgm3dHI/PnYD+3QwXF\nxXhUmfF5AgMBAAECggEABRTkBjU+mdx0VBkADeiQNjX3aQqjhb71t8fPGfEjBTox\nlVSr3yhf1C1wzrvXYX5TjnzXdaZ32JjiD3eAqxTiVQpBIarWljdbVZPt4TzkwXeb\nGPeqcHIDIlGIqQPrRpuSqTLZDPD0ZrSfIh4ZOmrDLscqvFVXzsIyIi/4Dwrs1Hxg\n6ZO1j+lYAFlZ9PGK/RPyws74Ac9EDV8cQpIKJv2jAhjg7W6bIctRIr+/z+3CeHxu\nGRGLrvqlnJWv8HtUXQkmLP6fDCIagQRA/MqKTCUyIU08LfOX+lxSxu4KRk2dHRbV\npftBjbhSwF/IFz+yjcj+OJqeY4dPU7YdlzEkZ3HoLwKBgQDvg77VAF9D2QMKyP4g\nnBDGs4blD99Qf4VgZK+u2fUa1LMTOMXIsfCNcsmzyF9/JgvhrUw9Ach+icKElLjZ\nOlah3eJ0D9A1eTCh+4JTlBnnE6tywrggdSatNwlHZZ1j8rvLcKvEo7dpbKYBHCjd\nW+IDaEL7eb1nW65eVRAIB13eCwKBgQDoDxXJRC1FcuNynCJCXNqxbi4jTlA6hbEC\nv9LhD6UG1BnZqvD3sS3L7+iYgUhJVsRv9AQOKueNskPwskpZut36trXCP0DGpB5v\na59FySZJ9c5MbdkIJHc8OqFhJ8rZ30axLC0n5frH12iYVBZjtdI8R0gUSrSLHYFg\nm9y+Oh+VCwKBgGH9CEmkSVU8p132NOGqd8KTGBEGmVoZkbuJ9cYXLYu4kTq/80rU\nYZG88IA47bjbG+lMOPCMljYOriIHpkhY8bBvUoIhJhF6b0cV2o/O+3nqNi5RM3sz\n8orTBVzMWcPWPrZQdjWQtSzQYmn5104YlTLHqP+xIqfyfjfhnRlryh9ZAoGBAJTa\n8FetkvikjL+85cD5/RKpoZDmMFKJ5ZTk5WmW9n3d2kMlAvNvxPe3idUhwPPCY7mI\npn1MCkJ7YldolobednvXbdoPZwbEyf0g5QcH07bHpTCjmf8+HPoWheRjeRyuu5L0\nynZ4cJh2VdK4xa/qNtSRyOuzTAKcx5vn/v5LHG0nAoGAL0tpqalFDBzLRAv1ad35\nTRQMZ6hwZjpQZBdOoBDU6sjnAiANQ55KIElYPXdaw1nFGFT2I6SZjn1UvvSon4cB\novMGCF4NPtd96OVPKj+47Vq9zqej3HsKInpLtO6VnYm0A2o5/WZTp603qpYXPCDg\nCrko0/giDkZfMVOqUbi9750=\n-----END PRIVATE KEY-----\n",
+  "client_email": "gketerraform@ethereal-jigsaw-362607.iam.gserviceaccount.com",
+  "client_id": "106520439399001682790",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gketerraform%40ethereal-jigsaw-362607.iam.gserviceaccount.com"
+}
